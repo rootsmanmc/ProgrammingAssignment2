@@ -1,4 +1,5 @@
-## The  two functions are makeCacheMatrix which creates a special object that stores a matrix and CacheSolve which returns the inverse of the matrix and cache's it.
+## The  two functions are makeCacheMatrix which creates a special object that stores a matrix and
+## CacheSolve which returns the inverse of the matrix and cache's it.
 
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse. It contains 4 functions set, get, setInv and getInv
