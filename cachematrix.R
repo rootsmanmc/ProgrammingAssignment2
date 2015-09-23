@@ -10,9 +10,9 @@ makeCacheMatrix <- function(x = matrix()) {
     x <<- y
     inv <<- NULL
   }
-  get <- function() x     #get is a function that returns the matrix x stored in the main function. Doesn't require any input.
-  setInv <- function(inverse) inv <<- inverse     # stores the value of the input in a variable inv into the main function makeCacheMatrix
-  getInv <- function() inv          #returns the stored value in the  main function makeCacheMatrix 
+  get <- function() x     ## get is a function that returns the matrix x stored in the main function. Doesn't require any input.
+  setInv <- function(inverse) inv <<- inverse     ## stores the value of the input in a variable inv into the main function makeCacheMatrix
+  getInv <- function() inv          ##returns the stored value in the  main function makeCacheMatrix 
   list(set = set, get = get,
        setInv = setInv,
        getInv = getInv)
